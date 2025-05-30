@@ -1,0 +1,35 @@
+Comando - 000
+print ('Olá, Mundo!')
+------------------------
+Comando - 001
+Aprendendo sobre variaveis
+nome = input('Qual o seu nome')
+print ('Olá mestre {}'.format(nome),'prazer em te conhecer')
+------------------------
+Comando - 002
+Prática de variaveis
+d = int(input('Que dia você nasceu'))
+m = (input('Que mês você nasceu'))
+a = int(input('Que ano você nasceu'))
+print('Você nasceu no dia',d,'no mês de',m,'no ano de',a,)
+------------------------
+Comando - 003
+Aprendendo sobre tipos de variaveis
+n = input('Digite algo')
+print('é do tipo:' ,(type(n)))
+print('só tem espaços:',n.isspace())
+print('só tem números:',n.isnumeric())
+print('só tem letras:',n.isalpha())
+print('tem letras e números:',n.isalnum())
+print('está todo em maiúsculo:',n.isupper())
+print('está todo em minúsculo',n.islower())
+print('está capitalizada:',n.istitle())
+------------------------
+Comando - 004
+Aprendendo algaritimos simples
+ap = float(input('Altura da parede(m):'))
+cp = float(input('Comprimento da parede(m):'))
+a = ap*cp
+t = (a+1)//2 #Arredondar para cima
+print('A parede tem uma área de {} e é necessário {} latas de tinta para pintar a parede inteira!'.format(a,t))
+
